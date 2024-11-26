@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import '@/styles/primereact.css';
 import 'primereact/resources/themes/lara-dark-amber/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
