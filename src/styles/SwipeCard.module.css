@@ -1,0 +1,18 @@
+.slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.slide_text {
+  font-size: 1em;
+  color: black;
+}
+
+.slide_img {
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.slide_img:hover {
+  transform: scale(1.2);
+}

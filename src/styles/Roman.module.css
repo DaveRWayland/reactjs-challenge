@@ -1,0 +1,13 @@
+.roman_container {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.roman_result {
+  color: white;
+  margin: 1em auto;
+  font-size: 3em;
+}

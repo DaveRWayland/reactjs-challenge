@@ -1,0 +1,10 @@
+.gallery_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gallery_container {
+  width: 75%;
+  margin: 3em auto 0;
+}
