@@ -35,13 +35,13 @@ h1 {
   max-width: 40px;
 }
 .pi-home {
-  content: url('../../public/anagrama.png');
+  content: url('/anagrama.png');
 }
 .pi-star {
-  content: url('../../public/romano.png');
+  content: url('/romano.png');
 }
 .pi-envelope {
-  content: url('../../public/nube.png');
+  content: url('/nube.png');
 }
 
 .p-inputgroup .pi {

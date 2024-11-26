@@ -1,10 +1,8 @@
 export default function handler(req, res) {
-  const url = 'https://api.unsplash.com/photos?page=1&?per_page=50';
+  const url = 'https://api.unsplash.com/photos?page=1&client_id=6yC_GVDAK9EnZFLDYC7yOs5zZ73lVj-bp2EHwPM1fow';
   const images = fetch(url, {
     method: 'GET',
-    credentials: 'include',
     headers: {
-      Authorization: `Client-ID ${process.env.AUTH_KEY}`,
       'Content-Type': 'application/json',
     },
   })
