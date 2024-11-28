@@ -91,3 +91,18 @@ h1 {
 .p-image.p-component img {
   width: 100%;
 }
+
+@media screen and (max-width: 700px) {
+  .MuiImageList-root.MuiImageList-masonry {
+    column-count: 2 !important;
+  }
+
+  .p-image-preview {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+
+  .MuiImageListItemBar-root {
+    display: none;
+  }
+}

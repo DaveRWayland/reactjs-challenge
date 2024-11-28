@@ -43,7 +43,7 @@ export default function Roman() {
     <>
       <div className={style.roman_container}>
         <h1 className='my-5'>Romano a Decimal</h1>
-        <FloatLabel className='mt-8'>
+        <FloatLabel className=' mt-4 mt-lg-8'>
           <InputText
             className='p-inputtext-lg'
             id='inputRoman'

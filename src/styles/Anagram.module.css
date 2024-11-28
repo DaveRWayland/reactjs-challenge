@@ -1,4 +1,11 @@
 .anagram_container {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .anagram_container {
+    width: 85%;
+    margin: 0 auto;
+  }
 }

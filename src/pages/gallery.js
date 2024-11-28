@@ -25,7 +25,11 @@ export default function Gallery() {
     <>
       <div className={style.gallery_container}>
         <h1>Gallery</h1>
-        {loading && <ProgressSpinner style={{ width: '50px', height: '50px' }} strokeWidth='8' />}
+        {loading && (
+          <div className={style.spinner_container}>
+            <ProgressSpinner style={{ width: '50px', height: '50px' }} strokeWidth='8' />
+          </div>
+        )}
         <List>{images && images.map((image, index) => <ListItem key={image.id} image={image} />)}</List>
       </div>
     </>
